@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
-import logo from "../assets/logo.png"
+import logo from "../assets/logo-sin-letras.png"
 import {link} from 'react-scroll'
 
 

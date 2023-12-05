@@ -1,6 +1,7 @@
 import React from 'react';
 import background from '../assets/terapiafloral1.png'
 import logo from "../assets/Logo-5-Elementos-letra.png"
+import logoWsp from "../assets/icono-whatsap.png"
 
 export default function DescripcionEmpresa() {
   return (
@@ -18,9 +19,9 @@ export default function DescripcionEmpresa() {
               <div class="text-white">
               <img src={logo} width="600px" alt="Logo"></img>
                 <h4 class="mb-3">"5 Elementos: Medicina Holística y Transpersonal" es un espacio de sanación creado por Fabiola Zavalla Guerrero, profesional del área de la salud, Terapeuta Energética y Transpersonal, ubicado en el corazón de Santiago de Chile, con una clara misión: fomentar la salud integral, el bienestar, el crecimiento personal y la expansión de la consciencia.</h4>
-                <a className="btn btn-outline-light btn-sm" href="#!" role="button" style={{ display: "inline-flex", alignItems: "center", justifyContent: "center" }}>
+                <a className="btn btn-outline-light btn-sm " href="#!" role="button" style={{ display: "inline-flex", alignItems: "center", justifyContent: "center" }}>
                   <div style={{ marginRight: "10px" }}>
-                    <img src='https://www.svgrepo.com/show/106976/whatsapp.svg' alt='WhatsApp Image 1' style={{ width: "20px", height: "20px" }} />
+                    <img src={logoWsp} alt='WhatsApp Image 1' style={{ width: "20px", height: "20px" }} />
                   </div>
                   <div>
                     <h4>Agendar hora</h4>
