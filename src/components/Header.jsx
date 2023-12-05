@@ -14,7 +14,7 @@ export const Header = () => {
         
     return (
         <>
-      <Navbar class="navbar navbar-expand-lg custom-navbar " style={{ backgroundColor: "rgb(78, 61, 100)"}} >
+      <Navbar class="navbar navbar-expand-lg custom-navbar fixed-top " style={{ backgroundColor: "rgb(78, 61, 100)"}} >
         <Navbar.Brand href="#" className='px-5'>
           <img src={logo} width="60px" alt="Logo"></img>
         </Navbar.Brand>
