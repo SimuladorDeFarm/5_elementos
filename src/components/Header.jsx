@@ -1,11 +1,11 @@
 import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
+
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import logo from "../assets/logo-sin-letras.png"
 import {link} from 'react-scroll'
+import { Navbar, Nav } from 'react-bootstrap';
 
 
 export const Header = () => {
@@ -14,23 +14,23 @@ export const Header = () => {
         
     return (
         <>
-      <Navbar class="navbar navbar-expand-lg custom-navbar fixed-top " style={{ backgroundColor: "rgb(78, 61, 100)"}} >
+     <Navbar class="navbar navbar-expand-lg custom-navbar fixed-top w-100" style={{ backgroundColor: "rgb(78, 61, 100)"}} >
         <Navbar.Brand href="#" className='px-5'>
           <img src={logo} width="60px" alt="Logo"></img>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarNav" />
         <Navbar.Collapse id="navbarNav">
           <Nav className="navbar-nav">
-             <Nav.Link className='px-5'></Nav.Link>
-             <Nav.Link className='px-5'></Nav.Link>
-             <Nav.Link className='px-5'></Nav.Link>
-             <Nav.Link className='px-5'></Nav.Link>
-             <Nav.Link className='px-5'></Nav.Link>
+             <Nav.Link className='px-5 d-none d-lg-block'></Nav.Link>
+             <Nav.Link className='px-5 d-none d-lg-block'></Nav.Link>
+             <Nav.Link className='px-5 d-none d-lg-block'></Nav.Link>
+             <Nav.Link className='px-5 d-none d-lg-block'></Nav.Link>
+             <Nav.Link className='px-5 d-none d-lg-block'></Nav.Link>
              <Nav.Link className='px-5'></Nav.Link>
 
 
-            <Nav.Link href="#inicio" className='px-3 text-light'>Inicio</Nav.Link>
-            <Nav.Link href="#descripcionEmpresa" className='px-3 text-light'>Agendar Hora</Nav.Link>
+            <Nav.Link href="#descripcionEmpresa-id" className='px-3 text-light'>Inicio</Nav.Link>
+            <Nav.Link href="#descripcionEmpresa-id" className='px-3 text-light'>Agendar Hora</Nav.Link>
             <Nav.Link href="#servicio-id" className='px-3 text-light'>Servicios</Nav.Link>
             <Nav.Link href="#testimonio-id" className='px-3 text-light'>Testimonios</Nav.Link>
             <Nav.Link href="#contacto-id" className='px-3 text-light'>Contacto</Nav.Link>

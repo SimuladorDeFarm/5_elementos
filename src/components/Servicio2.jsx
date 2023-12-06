@@ -41,7 +41,53 @@ function Servicio2() {
 
   return (
     <>
-      <div style={{ height: "100%" }}>
+      <div style={{ height: "100%" }} id="servicio-id">
+      <div className="d-flex align-items-center justify-content-center" style={{ height: "100vh" }}>
+        <div className="p-3 p-md-5 text-center bg-image rounded-3" style={{
+          backgroundImage: `url(${background})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center center',
+          height: "100%",
+          opacity: "0.8",
+        }}>
+          <div className="mask" style={{ backgroundColor: "rgba(114, 0, 76, 0.3)", height: "100%" }}>
+            <div className="d-flex flex-column justify-content-center align-items-center">
+              <div className="mb-3 text-white">
+                <h1 className="mb-2" style={{ fontSize: "4rem", textAlign: "center" }}>Terapia regresiva</h1>
+                <h4 style={{ fontSize: "2rem", textAlign: "center" }}>(terapia a vidas pasadas)</h4>
+              </div>
+              <div className="text-white mb-3" style={{ textAlign: "justify", margin: "0 20px" }}>
+                <h4 style={{ fontSize: "1.0rem" }}>
+                En lugar de enfocarse únicamente en el individuo, este
+                      método trabaja con la energía y el campo de tu sistema
+                      familiar. El objetivo principal es entender y comprender las
+                      dinámicas familiares que están influyendo en el conflicto o
+                      situación por la cual consultas, con el fin de entregarle una
+                      solución a ello. Durante las sesiones, se utilizan figuras o
+                      plantillas que representan de manera simbólica a los
+                      diferentes integrantes de tu sistema familiar.De esta
+                      manera, se crea un espacio para visualizar y explorar de
+                      manera concreta las relaciones y las interacciones dentro
+                      de tu familia
+                      
+                </h4>
+              </div>
+              <a className="btn btn-outline-light btn-lg" onClick={handleButtonClick} role="button" style={{ fontSize: "1.2rem" }}>
+                Ver Detalles
+              </a>
+              <ModalComponent show={showModal} handleClose={handleClose} serviceDetails={serviceDetails} />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </>
+  )
+}
+
+export default Servicio2
+
+/* <div style={{ height: "100%" }}>
         <div style={{ height: "100vh", display: "flex", alignItems: "center", justifyContent: "center" }}>
           <div class="p-5 text-center bg-image rounded-3" style={{
             backgroundImage: `url(${background})`,
@@ -80,9 +126,4 @@ function Servicio2() {
             </div>
           </div>
         </div>
-      </div>
-    </>
-  )
-}
-
-export default Servicio2
+      </div>*/

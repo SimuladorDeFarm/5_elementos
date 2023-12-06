@@ -41,46 +41,44 @@ function Servicio1() {
 
   return (
     <>
-      <div style={{ height: "100%" }} id="servicio-id">
-        <div style={{ height: "100vh", display: "flex", alignItems: "center", justifyContent: "center" }}>
-          <div className="p-5 text-center bg-image rounded-3" style={{
-            backgroundImage: `url(${background})`,
-            backgroundSize: 'cover',
-            backgroundPosition: 'center center',
-            height: "100%",
-            opacity: "0.8",
-          }}>
-            <div className="mask" style={{ backgroundColor: "rgba(114, 0, 76, 0.3)", height: "100%" }}>
-              <div className="d-flex justify-content-center align-items-center h-100" style={{ margin: "40px" }}>
-                <div className="text-white d-flex" style={{ flex: 1 }}>
-                  <div className="left-column mr-5" style={{ flex: 1 }}>
-                    <h1 className="mb-3" style={{ fontSize: "7.5rem", textAlign: "left" }}>Terapia regresiva</h1>
-                    <h4 className="mb-3" style={{ fontSize: "3rem", textAlign: "left" }}>(terapia a vidas pasadas)</h4>
-                  </div>
-                  <div className="right-column" style={{ flex: 1, display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center" }}>
-                    <h4 style={{ margin: "20px", fontSize: "1.0rem" }}>
-                      La Terapia a Vidas Pasadas es una técnica de sanación
-                      altamente efectiva y poderosa. Con ella, puedes
-                      encontrar la raíz de cualquier síntoma, problema, trauma
-                      o conflicto por el cual estés consultando y sanarlo desde
-                      su origen. Mediante un estado ampliado de consciencia.
-                      exploramos diversos recuerdos que pueden brindar
-                      explicaciones sobre el momento, la forma y el lugar en
-                      que surgió dicho síntoma. Este origen puede estar en un
-                      recuerdo de tu vida actual, en la infancia, en el vientre
-                      materno o en una vida pasada.
-                    </h4>
-                    <a className="btn btn-outline-light btn-lg" onClick={handleButtonClick} role="button" style={{ marginTop: "10px", fontSize: "1.2rem" }}>
-                      Ver Detalles
-                    </a>
-                    <ModalComponent show={showModal} handleClose={handleClose} serviceDetails={serviceDetails} />
-                  </div>
-                </div>
+ <div style={{ height: "100%" }} id="servicio-id">
+      <div className="d-flex align-items-center justify-content-center" style={{ height: "100vh" }}>
+        <div className="p-3 p-md-5 text-center bg-image rounded-3" style={{
+          backgroundImage: `url(${background})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center center',
+          height: "100%",
+          opacity: "0.8",
+        }}>
+          <div className="mask" style={{ backgroundColor: "rgba(114, 0, 76, 0.3)", height: "100%" }}>
+            <div className="d-flex flex-column justify-content-center align-items-center">
+              <div className="mb-3 text-white">
+                <h1 className="mb-2" style={{ fontSize: "4rem", textAlign: "center" }}>Terapia regresiva</h1>
+                <h4 style={{ fontSize: "2rem", textAlign: "center" }}>(terapia a vidas pasadas)</h4>
               </div>
+              <div className="text-white mb-3" style={{ textAlign: "justify", margin: "0 20px" }}>
+                <h4 style={{ fontSize: "1.0rem" }}>
+                  La Terapia a Vidas Pasadas es una técnica de sanación
+                  altamente efectiva y poderosa. Con ella, puedes
+                  encontrar la raíz de cualquier síntoma, problema, trauma
+                  o conflicto por el cual estés consultando y sanarlo desde
+                  su origen. Mediante un estado ampliado de consciencia.
+                  exploramos diversos recuerdos que pueden brindar
+                  explicaciones sobre el momento, la forma y el lugar en
+                  que surgió dicho síntoma. Este origen puede estar en un
+                  recuerdo de tu vida actual, en la infancia, en el vientre
+                  materno o en una vida pasada.
+                </h4>
+              </div>
+              <a className="btn btn-outline-light btn-lg" onClick={handleButtonClick} role="button" style={{ fontSize: "1.2rem" }}>
+                Ver Detalles
+              </a>
+              <ModalComponent show={showModal} handleClose={handleClose} serviceDetails={serviceDetails} />
             </div>
           </div>
         </div>
       </div>
+    </div>
     </>
   );
 }
