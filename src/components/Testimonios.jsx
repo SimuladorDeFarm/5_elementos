@@ -24,8 +24,8 @@ function Testimonios() {
 
         <div className="card mb-3 mb-sm-0 col-12 col-sm-6" style={{ maxWidth: "540px" }}>
           <div className="card-body">
-            <h5 className="card-title">"Llegué a Fabiola por recomendación de una amiga ya que desde hace mucho sufro de insomnio y cuadros de Ansiedad. Hicimos terapia de energización integral, y me sentí muy relajado durante la sesión e incluso días después de ésta. Con el paso de los días, si bien esa relajación rica que experimenté durante la terapia a ido disminuyendo, me he sentido con más energía y he notado que en las horas que estoy durmiendo, mi sueño ha sido mucho más profundo. Estoy pensando en volver luego de que se me acaben las gotitas de Bach".</h5>
-            <p className="card-text">Fernando M.C. Santiago</p>
+            <h5 className="card-title">"Fabiola llegó en un momento de mi vida en donde sentía que estaba perdiendo el rumbo. Me la recomendó una amiga de mi hermano y fui sin muchas expectativas. La primera vez trabajamos con Energización y fue una experiencia que nunca había sentido antes. Luego de eso, hemos trabajado con terapia floral y con una Constelación, la que me ayudó a entender cosas que sentía y no encontraba su causa. Lo que trabajé  en esa época con Fabiola me dio el impulso  para poder hacerme cargo de lo que tenía  que sanar y actualmente me encuentro también con terapia psicológica la que  me ha ayudado a sacar cosas que estaban guardadas dentro mí y que sino las hubiera trabajado antes, no me hubiese atrevido hacerlo".</h5>
+            <p className="card-text">Andrea M. R.  Santiago</p>
           </div>
         </div>
       </div>

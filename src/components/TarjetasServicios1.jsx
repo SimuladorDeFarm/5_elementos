@@ -47,6 +47,40 @@ function TarjetasServicios1() {
           <img src={img2} alt="Terapia de sanación de patrones" style={{width: '100%'}}/>
         </div>
       </div>
+
+      <div className="card" style={{width: '45%',
+        margin: '10px',
+        backgroundColor: 'rgba(114, 0, 76, 0.8)',
+        borderRadius: '20px'}}>
+
+        <div className="card-body" style={{
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+            }}>
+          <h5 className="card-title">Terapia floral</h5>
+          <p className="card-text">la Terapia Floral es una terapia vibracional</p>
+          <a href="#" className="btn btn-outline-light btn-sm" role="button">Ver detalles</a>
+          <img src={floral} alt="Terapia floral" style={{width: '100%'}}/>
+        </div>
+      </div>
+
+      <div className="card" style={{width: '45%',
+        margin: '10px',
+        backgroundColor: 'rgba(114, 0, 76, 0.8)',
+        borderRadius: '20px'}}>
+
+        <div className="card-body" style={{
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+            }}>
+          <h5 className="card-title">Terapia cuantica</h5>
+          <p className="card-text">Esta terapia combina la sanación cuántica junto con la terapia Floral</p>
+          <a href="#" className="btn btn-outline-light btn-sm" role="button">Ver detalles</a>
+          <img src={sanacion} alt="Terapia cuantica" style={{width: '100%'}}/>
+        </div>
+      </div>
     </div>
     );
 }
