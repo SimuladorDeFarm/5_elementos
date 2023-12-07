@@ -27,9 +27,9 @@ function TarjetasServicios1() {
 
 
           <h5 className="card-title">Terapia biomagnetismo</h5>
-          <p className="card-text">Restablecer salud del curpo humano con la colocacion de imanes en el cuerpo</p>
+          <p className="card-text">Restablecer la salud de nuestro ser, situando agentes magnéticos en todo nuestro cuerpo</p>
           <a href="#" className="btn btn-outline-light btn-sm" role="button">Ver detalles</a>
-          <img style={{width: '100%'}} src={biomagnetismo} alt="Terapia de energización" />
+          <img style={{width: '100%'}} src={magnet} alt="Terapia de energización" />
         </div>
       </div>
 
@@ -44,7 +44,7 @@ function TarjetasServicios1() {
             alignItems: 'center',
             }}>
           <h5 className="card-title">Terapia de sanación de patrones</h5>
-          <p className="card-text">Trabajaremos en colaboración con tu subconsciente para crear una conexion profunda con esas creencias y emociones limitantes, a travez de esto le daremos un nuevo significado a esos patrones restrictivos.</p>
+          <p className="card-text">Trabajaremos en colaboración con tu subconsciente para crear una conexion profunda con esas creencias y emociones limitantes, a traves de esto le daremos un nuevo significado a esos patrones restrictivos.</p>
           <a href="#" className="btn btn-outline-light btn-sm" role="button">Ver detalles</a>
           <img src={img2} alt="Terapia de sanación de patrones" style={{width: '100%'}}/>
         </div>
@@ -78,7 +78,7 @@ function TarjetasServicios1() {
             alignItems: 'center',
             }}>
           <h5 className="card-title">Terapia energia y sanacion cuantica</h5>
-          <p className="card-text">canaliza energia Cuantica mediante maestros espirituales que operan en la quinta dimension para sanar psico-espiritualmente</p>
+          <p className="card-text">Canaliza nuestra energía cuántica, mediante maestros espirituales que operan en la quinta dimensión para sanar psico-espiritualmente</p>
           <a href="#" className="btn btn-outline-light btn-sm" role="button">Ver detalles</a>
           <img src={sanacion} alt="Terapia cuantica" style={{width: '100%'}}/>
         </div>
