@@ -4,10 +4,17 @@ import img2 from '../assets/patrones1.png'
 import magnet from '../assets/magnet.png'
 import floral from  '../assets/floral.png'
 import sanacion from '../assets/sanacion.png'
+import energizacion from '../assets/energizacion.png';
+import ModalComponent from './ModalComponent';
+
+
+
+
+
 
 function TarjetasServicios1() {
     return (
-        <div className="mi-componente" style={{ display: 'flex',
+    <div className="mi-componente" style={{ display: 'flex',
             justifyContent: 'space-around',
             alignItems: 'center',
             flexWrap: 'wrap'}}>
@@ -42,7 +49,7 @@ function TarjetasServicios1() {
             alignItems: 'center',
             }}>
           <h5 className="card-title">Terapia de sanación de patrones</h5>
-          <p className="card-text">Trabajaremos en colaboración con tu subconsciente para crear una conexion profunda con esas creencias y emociones limitantes, a traves de esto le daremos un nuevo significado a esos patrones restrictivos.</p>
+          <p className="card-text">Trabajaremos en colaboración con tu subconsciente para crear una conexión profunda con esas creencias y emociones limitantes, a través de esto le daremos un nuevo significado a esos patrones restrictivos.</p>
           <a href="#" className="btn btn-outline-light btn-sm" role="button">Ver detalles</a>
           <img src={img2} alt="Terapia de sanación de patrones" style={{width: '100%'}}/>
         </div>
@@ -75,12 +82,30 @@ function TarjetasServicios1() {
             flexDirection: 'column',
             alignItems: 'center',
             }}>
-          <h5 className="card-title">Terapia energia y sanacion cuantica</h5>
-          <p className="card-text">Canaliza nuestra energía cuántica, mediante maestros espirituales que operan en la quinta dimensión para sanar psico-espiritualmente</p>
+          <h5 className="card-title">Terapia cuantica</h5>
+          <p className="card-text">Canalizar nuestra energía cuántica, mediante maestros espirituales que operan en la quinta dimensión para sanar psico-espiritualmente </p>
           <a href="#" className="btn btn-outline-light btn-sm" role="button">Ver detalles</a>
           <img src={sanacion} alt="Terapia cuantica" style={{width: '100%'}}/>
         </div>
       </div>
+
+      <div className="card" style={{width: '45%',
+        margin: '10px',
+        backgroundColor: 'rgba(114, 0, 76, 0.8)',
+        borderRadius: '20px'}}>
+
+        <div className="card-body" style={{
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+            }}>
+          <h5 className="card-title">Terapia energización</h5>
+          <p className="card-text"> Terapia que utiliza técnicas de energías y vibraciones para limpiar, desbloquear y equilibrar tu campo</p>
+          <a href="#" className="btn btn-outline-light btn-sm" role="button">Ver detalles</a>
+          <img src={energizacion} alt="Terapia cuantica" style={{width: '100%'}}/>
+        </div>
+      </div>
+      
     </div>
     );
 }
