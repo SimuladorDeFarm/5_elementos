@@ -1,11 +1,9 @@
 import React from 'react';
 import img1 from '../assets/energizacion1.png';
 import img2 from '../assets/patrones1.png'
-import biomagnetismo from '../assets/biomagnetismo.png'
+import magnet from '../assets/magnet.png'
 import floral from  '../assets/floral.png'
 import sanacion from '../assets/sanacion.png'
-
-// falta agregar un carrusel que permita deslizarse por los demás servicios que ofrece la empresa
 
 function TarjetasServicios1() {
     return (
