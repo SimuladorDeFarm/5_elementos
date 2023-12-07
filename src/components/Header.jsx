@@ -14,18 +14,18 @@ export const Header = () => {
         
     return (
         <>
-     <Navbar class="navbar navbar-expand-lg custom-navbar fixed-top w-100" style={{ backgroundColor: "rgb(78, 61, 100)"}} >
+     <Navbar class="navbar navbar-expand-lg custom-navbar fixed-top vw-100" style={{ backgroundColor: "rgb(78, 61, 100)"}} >
         <Navbar.Brand href="#" className='px-5'>
           <img src={logo} width="60px" alt="Logo"></img>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarNav" />
         <Navbar.Collapse id="navbarNav">
           <Nav className="navbar-nav">
-             <Nav.Link className='px-5 d-none d-lg-block'></Nav.Link>
-             <Nav.Link className='px-5 d-none d-lg-block'></Nav.Link>
-             <Nav.Link className='px-5 d-none d-lg-block'></Nav.Link>
-             <Nav.Link className='px-5 d-none d-lg-block'></Nav.Link>
-             <Nav.Link className='px-5 d-none d-lg-block'></Nav.Link>
+             <Nav.Link className='px-5'></Nav.Link>
+             <Nav.Link className='px-5'></Nav.Link>
+             <Nav.Link className='px-5'></Nav.Link>
+             <Nav.Link className='px-5'></Nav.Link>
+             <Nav.Link className='px-5'></Nav.Link>
              <Nav.Link className='px-5'></Nav.Link>
 
 

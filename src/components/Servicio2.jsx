@@ -25,8 +25,9 @@ function Servicio2() {
         </ol>
         <center>
           <h4>Duración: 1 hora a 1 hora y 30 min</h4>
+          <h4>Modalidad: Precencial u Online</h4>
           <h4>Inversión: $ 35.000CLP</h4>
-          <h4>Paypal: 45 dls</h4>
+          <h4>Paypal: 45 dolares</h4>
         </center>
       </>
     );
@@ -53,8 +54,8 @@ function Servicio2() {
           <div className="mask" style={{ backgroundColor: "rgba(114, 0, 76, 0.3)", height: "100%" }}>
             <div className="d-flex flex-column justify-content-center align-items-center">
               <div className="mb-3 text-white">
-                <h1 className="mb-2" style={{ fontSize: "4rem", textAlign: "center" }}>Terapia regresiva</h1>
-                <h4 style={{ fontSize: "2rem", textAlign: "center" }}>(terapia a vidas pasadas)</h4>
+                <h1 className="mb-2" style={{ fontSize: "4rem", textAlign: "center" }}>Terapia constelaciones familares </h1>
+                <h4 style={{ fontSize: "2rem", textAlign: "center" }}></h4>
               </div>
               <div className="text-white mb-3" style={{ textAlign: "justify", margin: "0 20px" }}>
                 <h4 style={{ fontSize: "1.0rem" }}>

@@ -33,7 +33,7 @@ export default function DescripcionEmpresa() {
             }}>
             
             <Row >
-              <Col class="m-2" style={{ backgroundColor: "rgba(0, 0, 0, 0.6)"  }}>
+              <Col className="m-2" style={{ backgroundColor: "rgba(0, 0, 0, 0.6)"  }}>
               
                 <Row  className='h-50' style={{ zIndex: 1 }}>
                   <Col className='d-flex justify-content-center align-items-center  text-center'>

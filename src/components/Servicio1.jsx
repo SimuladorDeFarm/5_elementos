@@ -25,8 +25,9 @@ function Servicio1() {
         </ol>
         <center>
           <h4>Duración: 2 horas a 2 horas 30 min.</h4>
+          <h4>Inversión: $ 35.000CLP</h4>
           <h4>Inversión: $ 45.000 CLP</h4>
-          <h4>Paypal: 60dls</h4>
+          <h4>Paypal: 60 dolares</h4>
         </center>
       </>
     );
