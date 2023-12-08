@@ -104,6 +104,18 @@ function TarjetasServicios1() {
     handleShow();
   };
 
+  const cardStyle = {
+    margin: '10px',
+    backgroundColor: 'rgba(114, 0, 76, 0.8)',
+    borderRadius: '20px'
+  }
+  
+  const cardImgStyle = {
+    width: "100%",
+    border: '3px solid white',
+    borderRadius: '6px',
+  }
+
   return (
     <div className="mi-componente" style={{
       display: 'flex',
@@ -112,12 +124,7 @@ function TarjetasServicios1() {
       flexWrap: 'wrap'
     }}>
 
-      <div className="card" style={{
-        width: '45%',
-        margin: '10px',
-        backgroundColor: 'rgba(114, 0, 76, 0.8)',
-        borderRadius: '20px'
-      }}>
+      <div className="card" style={cardStyle}>
 
         <div className="card-body" style={{
           display: 'flex',
@@ -129,17 +136,12 @@ function TarjetasServicios1() {
           <h5 className="card-title">Terapia biomagnetismo</h5>
           <p className="card-text">Restablecer la salud de nuestro ser, situando agentes magnéticos en todo nuestro cuerpo</p>
           <a onClick={() => handleButtonClick(1)} className="btn btn-outline-light btn-sm" role="button">Ver detalles</a>
-          <img style={{ width: '100%' }} src={magnet} alt="Terapia de energización" />
+          <img style={cardImgStyle} src={magnet} alt="Terapia de energización" />
           <ModalComponent show={showModal} handleClose={handleClose} serviceDetails={serviceDetails} />
         </div>
       </div>
 
-      <div className="card" style={{
-        width: '45%',
-        margin: '10px',
-        backgroundColor: 'rgba(114, 0, 76, 0.8)',
-        borderRadius: '20px'
-      }}>
+      <div className="card" style={cardStyle}>
 
         <div className="card-body" style={{
           display: 'flex',
@@ -149,17 +151,12 @@ function TarjetasServicios1() {
           <h5 className="card-title">Terapia de sanación de patrones</h5>
           <p className="card-text">Trabajaremos en colaboración con tu subconsciente para crear una conexión profunda con esas creencias y emociones limitantes, a través de esto le daremos un nuevo significado a esos patrones restrictivos.</p>
           <a onClick={() => handleButtonClick(2)} className="btn btn-outline-light btn-sm" role="button">Ver detalles</a>
-          <img src={img2} alt="Terapia de sanación de patrones" style={{ width: '100%' }} />
+          <img src={img2} alt="Terapia de sanación de patrones" style={cardImgStyle} />
           <ModalComponent show={showModal} handleClose={handleClose} serviceDetails={serviceDetails} />
         </div>
       </div>
 
-      <div className="card" style={{
-        width: '45%',
-        margin: '10px',
-        backgroundColor: 'rgba(114, 0, 76, 0.8)',
-        borderRadius: '20px'
-      }}>
+      <div className="card" style={cardStyle}>
 
         <div className="card-body" style={{
           display: 'flex',
@@ -169,7 +166,7 @@ function TarjetasServicios1() {
           <h5 className="card-title">Terapia floral</h5>
           <p className="card-text">la Terapia Floral es una terapia vibracional para conectarte con el origen de tus experiencias y emociones usando Sistemas florales</p>
           <a onClick={() => handleButtonClick(1)} className="btn btn-outline-light btn-sm" role="button">Ver detalles</a>
-          <img src={floral} alt="Terapia floral" style={{ width: '100%' }} />
+          <img src={floral} alt="Terapia floral" style={cardImgStyle} />
         </div>
       </div>
 
@@ -188,16 +185,11 @@ function TarjetasServicios1() {
           <h5 className="card-title">Terapia cuantica</h5>
           <p className="card-text">Canalizar nuestra energía cuántica, mediante maestros espirituales que operan en la quinta dimensión para sanar psico-espiritualmente </p>
           <a href="#" className="btn btn-outline-light btn-sm" role="button">Ver detalles</a>
-          <img src={sanacion} alt="Terapia cuantica" style={{ width: '100%' }} />
+          <img src={sanacion} alt="Terapia cuantica" style={cardImgStyle} />
         </div>
       </div>
 
-      <div className="card" style={{
-        width: '45%',
-        margin: '10px',
-        backgroundColor: 'rgba(114, 0, 76, 0.8)',
-        borderRadius: '20px'
-      }}>
+      <div className="card" style={cardStyle}>
 
         <div className="card-body" style={{
           display: 'flex',
@@ -207,7 +199,7 @@ function TarjetasServicios1() {
           <h5 className="card-title">Terapia energización</h5>
           <p className="card-text"> Terapia que utiliza técnicas de energías y vibraciones para limpiar, desbloquear y equilibrar tu campo</p>
           <a onClick={() => handleButtonClick(1)} className="btn btn-outline-light btn-sm" role="button">Ver detalles</a>
-          <img src={energizacion} alt="Terapia cuantica" style={{ width: '100%' }} />
+          <img src={energizacion} alt="Terapia cuantica" style={cardImgStyle} />
         </div>
       </div>
 
@@ -216,3 +208,95 @@ function TarjetasServicios1() {
 }
 
 export default TarjetasServicios1;
+
+
+/*
+import React from 'react';
+import img1 from '../assets/energizacion1.png';
+import img2 from '../assets/patrones1.png'
+import magnet from '../assets/magnet.png'
+import floral from  '../assets/floral.png'
+import sanacion from '../assets/sanacion.png'
+import energizacion from '../assets/energizacion.png';
+import ModalComponent from './ModalComponent';
+
+
+
+
+const cards = [
+  {
+    title: 'Terapia biomagnetismo',
+    description: 'Restablecer la salud de nuestro ser, situando agentes magnéticos en todo nuestro cuerpo',
+    img: magnet,
+    alt: 'Terapia de energización'
+  },
+  {
+    title: 'Terapia de sanación de patrones',
+    description: 'Trabajaremos en colaboración con tu subconsciente para crear una conexión profunda con esas creencias y emociones limitantes, a través de esto le daremos un nuevo significado a esos patrones restrictivos.',
+    img: img2,
+    alt: 'Terapia de sanación de patrone'
+  },
+  {
+    title: 'Terapia floral',
+    description: 'la Terapia Floral es una terapia vibracional para conectarte con el origen de tus experiencias y emociones usando Sistemas florales',
+    img: floral,
+    alt: 'Terapia floral'
+  },
+  {
+    title: 'Terapia cuantica',
+    description: 'Canalizar nuestra energía cuántica, mediante maestros espirituales que operan en la quinta dimensión para sanar psico-espiritualmente ',
+    img: sanacion,
+    alt: 'Terapia cuantica'
+  },
+  {
+    title: 'Terapia energización',
+    description: 'Terapia que utiliza técnicas de energías y vibraciones para limpiar, desbloquear y equilibrar tu campo',
+    img: energizacion,
+    alt: 'Terapia de energización'
+  }
+]
+
+const cardStyle = {
+  margin: '10px',
+  backgroundColor: 'rgba(114, 0, 76, 0.8)',
+  borderRadius: '20px'
+}
+
+const cardImgStyle = {
+  width: "100%",
+  border: '3px solid white',
+  borderRadius: '6px',
+}
+
+function TarjetasServicios1() {
+    return (
+    <div className="mi-componente" style={{ display: 'flex',
+        justifyContent: 'space-around',
+        alignItems: 'center',
+        flexWrap: 'wrap'}}>
+
+        {cards.map((card, index) => (
+          <div key={index} className="card" style={cardStyle}>
+              <div className="card-body bodyCard" style={{
+                  display: 'flex',
+                  flexDirection: 'column',
+                  alignItems: 'left',
+                  color: 'white',
+              }}>
+                  <h5 className="card-title" style={{textAlign:'left'}}>{card.title}</h5>
+                  <p className="card-text">{card.description}</p>
+                  <a href="#" className="btn btn-outline-light btn-sm" role="button">Ver detalles</a>
+                  <div style={{padding: '5px', marginTop: '5px'}}>
+                    <img style={cardImgStyle} src={card.img} alt={card.alt} />
+                  </div>
+                  
+              </div>
+          </div>
+        ))}
+
+    </div>
+    );
+}
+
+export default TarjetasServicios1;
+*/
