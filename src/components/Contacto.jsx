@@ -13,7 +13,7 @@ function Contacto() {
 
 
     return (
-      <div className="contacto" id="contacto-id" style={{ backgroundColor: "rgba(255,255,140,1)", padding: "30px", minHeight: "100vh", display: "flex", flexDirection: "column" }}>
+      <div className="contacto" id="contacto-id" style={{ backgroundColor: "rgba(255,255,140,1)", padding: "30px", minHeight: "70px", display: "flex", flexDirection: "column" }}>
       {/* Primera fila */}
       <div className="row" style={{ display: "flex", flexDirection: "row", justifyContent: "space-evenly", flex: 1 }}>
         {/* Izquierda */}
