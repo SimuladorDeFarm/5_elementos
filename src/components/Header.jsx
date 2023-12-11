@@ -4,7 +4,6 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import logo from "../assets/logo-sin-letras.png"
-import {link} from 'react-scroll'
 import { Navbar, Nav } from 'react-bootstrap';
 
 
@@ -23,7 +22,7 @@ export const Header = () => {
         <Nav className="ml-auto">
           <Nav.Link href="#descripcionEmpresa-id" className='px-3 text-light'>Inicio</Nav.Link>
           <Nav.Link href="#descripcionEmpresa-id" className='px-3 text-light'>Agendar Hora</Nav.Link>
-          <Nav.Link href="#servicio-id" className='px-3 text-light'>Servicios</Nav.Link>
+          <Nav.Link href="#servicio1-id" className='px-3 text-light'>Servicios</Nav.Link>
           <Nav.Link href="#testimonio-id" className='px-3 text-light'>Testimonios</Nav.Link>
           <Nav.Link href="#contacto-id" className='px-3 text-light'>Contacto</Nav.Link>
         </Nav>

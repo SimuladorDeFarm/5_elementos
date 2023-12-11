@@ -31,6 +31,7 @@ function TarjetasServicios1() {
             <center>
               <h4>Duración: 1 hora 30 min a 2 horas</h4>
               <h4>Inversión: $ 30.000 cada sesión</h4>
+              <h4>*Tener en cuenta que al utilizar PayPal, los pagos se procesarán en dólares estadounidenses (USD)*</h4>
             </center>
           </>
         );
@@ -49,6 +50,7 @@ function TarjetasServicios1() {
               <h4>Duración: 1 hora y 45 min</h4>
               <h4>Inversión: $ 36.000</h4>
               <h4>(Incluye esencias florales)</h4>
+              <h4>*Tener en cuenta que al utilizar PayPal, los pagos se procesarán en dólares estadounidenses (USD)*</h4>
             </center>
           </>
         );
@@ -60,7 +62,7 @@ function TarjetasServicios1() {
               <li>Si buscar encontrar un equilibrio emocional y conectar con la adaptación frente a los cambios.</li>
               <li>Si buscas un apoyo para ese duelo, angustia, crisis de pánico, miedos y depresión.</li>
               <li>Si quieres comenzar a trabajar en tu autoestima, seguridad y confianza, así como también para trabajar y sanar tus emociones, esta es la indicada.</li>
-              <li>Si te sientes pesimista, con desánimo sin sentir que estás disfrutando tu vida.</li>
+              <li>Si te sientes pesimista, con desánimo, sin sentir que estás disfrutando tu vida.</li>
               <li>Como un complemento para trabajar tu hiperactividad, insomnio y falta de descanso.</li>
               <li>Te sientes con un nerviosismo, ansiedad y tensión constante.</li>
               <li>Quieres un apoyo psico-emocional para tu embarazo y posterior a él.</li>
@@ -70,6 +72,7 @@ function TarjetasServicios1() {
               <h4>Duración: 1 hora</h4>
               <h4>Inversión: $ 25.000 CLP</h4>
               <h4>(No incluye valor de envío de esencias florales para terapia online)</h4>
+              <h4>*Tener en cuenta que al utilizar PayPal, los pagos se procesarán en dólares estadounidenses (USD)*</h4>
             </center>
           </>
         );
@@ -87,7 +90,7 @@ function TarjetasServicios1() {
             <center>
               <h4>Duración: 1 hora</h4>
               <h4>Inversión: $ 25.000 CLP</h4>
-              <h4>Paypal: $30 dls</h4>
+              <h4>*Tener en cuenta que al utilizar PayPal, los pagos se procesarán en dólares estadounidenses (USD)*</h4>
             </center>
           </>
         );
@@ -133,7 +136,7 @@ function TarjetasServicios1() {
         }}>
 
 
-          <h5 className="card-title">Terapia biomagnetismo</h5>
+          <h5 className="card-title">Terapia Biomagnetismo</h5>
           <p className="card-text">Restablecer la salud de nuestro ser, situando agentes magnéticos en todo nuestro cuerpo</p>
           <a onClick={() => handleButtonClick(1)} className="btn btn-outline-light btn-sm" role="button">Ver detalles</a>
           <img style={cardImgStyle} src={magnet} alt="Terapia de energización" />
@@ -148,7 +151,7 @@ function TarjetasServicios1() {
           flexDirection: 'column',
           alignItems: 'center',
         }}>
-          <h5 className="card-title">Terapia de sanación de patrones</h5>
+          <h5 className="card-title">Terapia de Sanación de Patrones</h5>
           <p className="card-text">Trabajaremos en colaboración con tu subconsciente para crear una conexión profunda con esas creencias y emociones limitantes, a través de esto le daremos un nuevo significado a esos patrones restrictivos.</p>
           <a onClick={() => handleButtonClick(2)} className="btn btn-outline-light btn-sm" role="button">Ver detalles</a>
           <img src={img2} alt="Terapia de sanación de patrones" style={cardImgStyle} />
@@ -163,7 +166,7 @@ function TarjetasServicios1() {
           flexDirection: 'column',
           alignItems: 'center',
         }}>
-          <h5 className="card-title">Terapia floral</h5>
+          <h5 className="card-title">Terapia Floral</h5>
           <p className="card-text">la Terapia Floral es una terapia vibracional para conectarte con el origen de tus experiencias y emociones usando Sistemas florales</p>
           <a onClick={() => handleButtonClick(1)} className="btn btn-outline-light btn-sm" role="button">Ver detalles</a>
           <img src={floral} alt="Terapia floral" style={cardImgStyle} />
@@ -182,7 +185,7 @@ function TarjetasServicios1() {
           flexDirection: 'column',
           alignItems: 'center',
         }}>
-          <h5 className="card-title">Terapia cuantica</h5>
+          <h5 className="card-title">Terapia Cuantica</h5>
           <p className="card-text">Canalizar nuestra energía cuántica, mediante maestros espirituales que operan en la quinta dimensión para sanar psico-espiritualmente </p>
           <a href="#" className="btn btn-outline-light btn-sm" role="button">Ver detalles</a>
           <img src={sanacion} alt="Terapia cuantica" style={cardImgStyle} />
@@ -196,8 +199,8 @@ function TarjetasServicios1() {
           flexDirection: 'column',
           alignItems: 'center',
         }}>
-          <h5 className="card-title">Terapia energización</h5>
-          <p className="card-text"> Terapia que utiliza técnicas de energías y vibraciones para limpiar, desbloquear y equilibrar tu campo</p>
+          <h5 className="card-title">Terapia Energización</h5>
+          <p className="card-text"> Terapia que utiliza técnicas de energías y vibraciones para limpiar, desbloquear y equilibrar tu campo.</p>
           <a onClick={() => handleButtonClick(1)} className="btn btn-outline-light btn-sm" role="button">Ver detalles</a>
           <img src={energizacion} alt="Terapia cuantica" style={cardImgStyle} />
         </div>

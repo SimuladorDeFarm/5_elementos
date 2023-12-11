@@ -1,5 +1,5 @@
 import React from 'react';
-import background from '../assets/terapiafloral1.png'
+import background from '../assets/portada.png'
 import logo from "../assets/Logo-5-Elementos-letra.png"
 import logoWsp from "../assets/icono-whatsap.png"
 import { Container, Row, Col } from 'react-bootstrap';
@@ -28,12 +28,12 @@ export default function DescripcionEmpresa() {
     
           <Row className="background-image justify-content-center " style={{
               backgroundImage: `url(${background})`,
-              backgroundSize: 'cover', backgroundPosition: 'center', height: '800px',
+              backgroundSize: 'cover', backgroundPosition: 'center', height: '110vh',
               backgroundRepeat: 'no-repeat', 
             }}>
             
             <Row >
-              <Col className="m-2" style={{ backgroundColor: "rgba(0, 0, 0, 0.6)"  }}>
+              <Col className="m-2" style={{ backgroundColor: "rgba(180, 146, 159, 0.6)"  }}>
               
                 <Row  className='h-50' style={{ zIndex: 1 }}>
                   <Col className='d-flex justify-content-center align-items-center  text-center'>
@@ -45,9 +45,48 @@ export default function DescripcionEmpresa() {
                   
                   
                   <Col >
-                    <h1  className="lead mb-3" >"5 Elementos: Medicina Holística y Transpersonal" es un espacio de sanación creado por Fabiola Zavalla Guerrero, profesional del área de la salud, Terapeuta Energética y Transpersonal, ubicado en el corazón de Santiago de Chile, con una clara misión: fomentar la salud integral, el bienestar, el crecimiento personal y la expansión de la consciencia.</h1>
+                    <h1  className="lead mb-3 col-md-8 mx-auto" >"5 Elementos: Medicina Holística y Transpersonal" es un espacio de sanación creado por Fabiola Zavalla Guerrero, profesional del área de la salud, Terapeuta Energética y Transpersonal, ubicado en el corazón de Santiago de Chile, con una clara misión: fomentar la salud integral, el bienestar, el crecimiento personal y la expansión de la consciencia.</h1>
                   </Col>             
                 </Row>
+              <div className='text-white d-flex    justify-content-center'>
+                <ol >
+                  <a className= "link" href="#servicio1-id" style={{
+                    color: 'inherit',          // Utiliza el color heredado del elemento padre
+                    textDecoration: 'none',    // Quita el subrayado predeterminado
+                    }}
+                    >Terapia Regresiva</a>
+                  <a className= "link" href="#servicio2-id" style={{
+                    color: 'inherit',          // Utiliza el color heredado del elemento padre
+                    textDecoration: 'none',    // Quita el subrayado predeterminado
+                    }}>
+                      <br />Constelaciones Familiares</a>
+                    <a className= "link" href="#servicio3-id" style={{
+                    color: 'inherit',          // Utiliza el color heredado del elemento padre
+                    textDecoration: 'none',    // Quita el subrayado predeterminado
+                    }}>
+                      <br />Biomagnetismo</a>
+                  <a className= "link" href="#servicio4-id" style={{
+                    color: 'inherit',          // Utiliza el color heredado del elemento padre
+                    textDecoration: 'none',    // Quita el subrayado predeterminado
+                    }}>
+                    <br />Sanacion de Patrones</a>
+                  <a className= "link" href="#servicio5-id" style={{
+                    color: 'inherit',          // Utiliza el color heredado del elemento padre
+                    textDecoration: 'none',    // Quita el subrayado predeterminado
+                    }}>
+                      <br />Terapia Floral</a>
+                    <a className= "link" href="#servicio6-id" style={{
+                      color: 'inherit',          // Utiliza el color heredado del elemento padre
+                      textDecoration: 'none',    // Quita el subrayado predeterminado
+                    }}>
+                      <br />Sanación Cuántica</a>
+                    <a className= "link" href="#servicio7-id" style={{
+                    color: 'inherit',          // Utiliza el color heredado del elemento padre
+                    textDecoration: 'none',    // Quita el subrayado predeterminado
+                    }}>
+                    <br />Terapia Energización</a>
+                </ol>
+        </div>
 
                 <Row className='text-white d-flex  justify-content-center text-justify text-center align-items-center ' style={{ zIndex: 1 }}>
                   <Col>
