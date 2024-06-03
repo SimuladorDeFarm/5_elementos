@@ -43,7 +43,7 @@ Cuando usted abre la consola, esta siempre estará en la carpeta raíz, que es l
 
 ejemplo:
 ```bash
-C:\Users\Tomas> 
+C:\Users\Tomas
 ```
 eso significa que usted esta posicionado en la carpeta raiz, ingrese el siguiente comando para listar todas las carpetas que se encuentran dentro
 de la carpeta en la que usted este posicionado:
